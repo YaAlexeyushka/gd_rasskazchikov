@@ -1,0 +1,25 @@
+config_version=5
+
+[application]
+
+config/name="Модификация корабля"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/ship1.png"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=768
+window/size/window_width_override=896
+window/size/window_height_override=672
+window/stretch/mode="canvas_items"
+
+[layer_names]
+
+2d_physics/layer_1="Корабль"
+2d_physics/layer_2="Препятствия"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
